@@ -1,5 +1,27 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: 'Montserrat', sans-serif;
+}
+* {
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* select overrides */
+.Select .Select-placeholder,
+.Select.Select--single > .Select-control .Select-value {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  line-height: 22px;
+  font-size: 16px;
+}
+.Select .Select-input {
+  height: 47px;
+}
+.Select .Select-input > input {
+  line-height: 27px;
+}
+.Select.Select--multi .Select-value {
+  line-height: 31px;
 }
